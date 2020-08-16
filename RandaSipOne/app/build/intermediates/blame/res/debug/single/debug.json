@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/vezir/AndroidStudioProjects/RandaSipOne/app/build/intermediates/res/merged/debug/layout_tasarim.xml.flat",
+        "source": "/home/vezir/AndroidStudioProjects/RandaSipOne/app/src/main/res/layout/tasarim.xml"
+    },
+    {
+        "merged": "/home/vezir/AndroidStudioProjects/RandaSipOne/app/build/intermediates/res/merged/debug/drawable_logo.png.flat",
+        "source": "/home/vezir/AndroidStudioProjects/RandaSipOne/app/src/main/res/drawable/logo.png"
+    }
+]

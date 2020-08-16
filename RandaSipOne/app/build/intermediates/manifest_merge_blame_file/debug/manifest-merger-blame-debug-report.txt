@@ -1,0 +1,80 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.android.sip" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="9"
+6-->/home/vezir/AndroidStudioProjects/RandaSipOne/app/src/main/AndroidManifest.xml
+7        android:targetSdkVersion="9" />
+7-->/home/vezir/AndroidStudioProjects/RandaSipOne/app/src/main/AndroidManifest.xml
+8
+9    <uses-permission android:name="android.permission.USE_SIP" />
+9-->/home/vezir/AndroidStudioProjects/RandaSipOne/app/src/main/AndroidManifest.xml:18:5-66
+9-->/home/vezir/AndroidStudioProjects/RandaSipOne/app/src/main/AndroidManifest.xml:18:22-63
+10    <uses-permission android:name="android.permission.INTERNET" />
+10-->/home/vezir/AndroidStudioProjects/RandaSipOne/app/src/main/AndroidManifest.xml:19:5-67
+10-->/home/vezir/AndroidStudioProjects/RandaSipOne/app/src/main/AndroidManifest.xml:19:22-64
+11    <uses-permission android:name="android.permission.VIBRATE" />
+11-->/home/vezir/AndroidStudioProjects/RandaSipOne/app/src/main/AndroidManifest.xml:20:5-66
+11-->/home/vezir/AndroidStudioProjects/RandaSipOne/app/src/main/AndroidManifest.xml:20:22-63
+12    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+12-->/home/vezir/AndroidStudioProjects/RandaSipOne/app/src/main/AndroidManifest.xml:21:5-76
+12-->/home/vezir/AndroidStudioProjects/RandaSipOne/app/src/main/AndroidManifest.xml:21:22-73
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->/home/vezir/AndroidStudioProjects/RandaSipOne/app/src/main/AndroidManifest.xml:22:5-68
+13-->/home/vezir/AndroidStudioProjects/RandaSipOne/app/src/main/AndroidManifest.xml:22:22-65
+14    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+14-->/home/vezir/AndroidStudioProjects/RandaSipOne/app/src/main/AndroidManifest.xml:23:5-71
+14-->/home/vezir/AndroidStudioProjects/RandaSipOne/app/src/main/AndroidManifest.xml:23:22-68
+15
+16    <uses-feature
+16-->/home/vezir/AndroidStudioProjects/RandaSipOne/app/src/main/AndroidManifest.xml:25:5-86
+17        android:name="android.hardware.sip.voip"
+17-->/home/vezir/AndroidStudioProjects/RandaSipOne/app/src/main/AndroidManifest.xml:25:19-59
+18        android:required="true" />
+18-->/home/vezir/AndroidStudioProjects/RandaSipOne/app/src/main/AndroidManifest.xml:25:60-83
+19    <uses-feature
+19-->/home/vezir/AndroidStudioProjects/RandaSipOne/app/src/main/AndroidManifest.xml:26:5-82
+20        android:name="android.hardware.wifi"
+20-->/home/vezir/AndroidStudioProjects/RandaSipOne/app/src/main/AndroidManifest.xml:26:19-55
+21        android:required="true" />
+21-->/home/vezir/AndroidStudioProjects/RandaSipOne/app/src/main/AndroidManifest.xml:26:56-79
+22    <uses-feature
+22-->/home/vezir/AndroidStudioProjects/RandaSipOne/app/src/main/AndroidManifest.xml:27:5-88
+23        android:name="android.hardware.microphone"
+23-->/home/vezir/AndroidStudioProjects/RandaSipOne/app/src/main/AndroidManifest.xml:27:19-61
+24        android:required="true" />
+24-->/home/vezir/AndroidStudioProjects/RandaSipOne/app/src/main/AndroidManifest.xml:27:62-85
+25
+26    <application
+26-->/home/vezir/AndroidStudioProjects/RandaSipOne/app/src/main/AndroidManifest.xml:6:5-17:19
+27        android:debuggable="true"
+28        android:icon="@drawable/logo"
+28-->/home/vezir/AndroidStudioProjects/RandaSipOne/app/src/main/AndroidManifest.xml:6:18-47
+29        android:label="Randa Elektronik"
+29-->/home/vezir/AndroidStudioProjects/RandaSipOne/app/src/main/AndroidManifest.xml:6:48-80
+30        android:testOnly="true" >
+31        <activity
+31-->/home/vezir/AndroidStudioProjects/RandaSipOne/app/src/main/AndroidManifest.xml:7:7-13:20
+32            android:name="com.example.android.sip.RandaSipOne"
+32-->/home/vezir/AndroidStudioProjects/RandaSipOne/app/src/main/AndroidManifest.xml:7:17-44
+33            android:configChanges="orientation|keyboardHidden" >
+33-->/home/vezir/AndroidStudioProjects/RandaSipOne/app/src/main/AndroidManifest.xml:8:11-61
+34            <intent-filter>
+34-->/home/vezir/AndroidStudioProjects/RandaSipOne/app/src/main/AndroidManifest.xml:9:13-12:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->/home/vezir/AndroidStudioProjects/RandaSipOne/app/src/main/AndroidManifest.xml:10:17-68
+35-->/home/vezir/AndroidStudioProjects/RandaSipOne/app/src/main/AndroidManifest.xml:10:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->/home/vezir/AndroidStudioProjects/RandaSipOne/app/src/main/AndroidManifest.xml:11:17-76
+37-->/home/vezir/AndroidStudioProjects/RandaSipOne/app/src/main/AndroidManifest.xml:11:27-74
+38            </intent-filter>
+39        </activity>
+40
+41        <receiver android:name="com.example.android.sip.RandaSipOne" />
+41-->/home/vezir/AndroidStudioProjects/RandaSipOne/app/src/main/AndroidManifest.xml:16:9-49
+41-->/home/vezir/AndroidStudioProjects/RandaSipOne/app/src/main/AndroidManifest.xml:16:19-46
+42    </application>
+43
+44</manifest>

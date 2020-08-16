@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content"
+    android:orientation="vertical"
+  >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Randa Sip  Test Projesi"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="2dp"/>
+
+        <TextView
+            android:id="@+id/sipLabel"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+
+            />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="150dp">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn"
+            android:textSize="20sp"
+            android:text="Arama Yap"/>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btntwo"
+            android:textSize="20sp"
+            android:text="Kapat"/>
+
+
+    </LinearLayout>
+
+    <ToggleButton
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:text="@+string/talk"
+        android:id="@+id/pushToTalk"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textOff="OFF"
+        android:textOn="ON"
+        android:layout_gravity="bottom|center"
+        android:layout_marginTop="20dp" />
+    </LinearLayout>
+
+</RelativeLayout>
